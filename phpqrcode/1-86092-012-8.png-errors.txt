@@ -1,0 +1,6 @@
+2023-02-28 13:37:41: <br />
+<b>Warning</b>:  Trying to access array offset on value of type int in <b>D:\Program Files\xampp\htdocs\HCAMIS\phpqrcode\qrsplit.php</b> on line <b>71</b><br />
+<br />
+<b>Warning</b>:  Trying to access array offset on value of type int in <b>D:\Program Files\xampp\htdocs\HCAMIS\phpqrcode\qrsplit.php</b> on line <b>53</b><br />
+<br />
+<b>Warning</b>:  Trying to access array offset on value of type int in <b>D:\Program Files\xampp\htdocs\HCAMIS\phpqrcode\qrsplit.php</b> on line <b>62</b><br />

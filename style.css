@@ -1,0 +1,392 @@
+	@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  height: 100%;
+}
+
+footer{
+	background-color: #53FF56;
+	height: 25vh;
+	margin: auto;
+}
+
+.header{
+	padding: 1rem 1rem 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 15vh;
+	width: 100%;
+	background-color: #fff;
+}
+
+
+
+nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav-links{
+	flex: 1;
+	text-align: right;
+	display: block;
+}
+
+.nav-links ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 2rem	 12px;
+	position: relative;
+}
+
+.nav-links ul li a{
+	color: #595757;
+	text-decoration: none;;
+	font-size: 16px;
+}
+
+
+.menu-icon{
+  width: 25px;
+  cursor: pointer;
+  display: none;
+}
+
+.swiper{
+	height: fit-content;
+}
+
+.swiper-slide img{
+	width: 100%;
+	height: 80vh;
+}
+
+.swiper-button-prev{
+	color: #666666;
+	opacity: .2;
+}
+
+.swiper-button-next{
+	color: #666666;
+	opacity: .2;
+}
+
+.content .title{
+	margin-top: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.content .title h1{
+	font-size: 50px;
+	display: inline;
+	color: #47f576;
+	font-weight: 500;
+}
+
+.content .enrollment_page{
+	margin-top: 5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #53FF56;
+	height: 50vh;
+}
+
+.content .message_page{
+	margin-top: 5rem;
+	width: 100%;
+	margin-bottom: 5rem;
+}
+
+.content .message_page .input{
+	position: relative;
+	display: inline-block;
+	width: 25rem;
+}
+
+.content .-page{
+	width: 100%;
+	text-align: center;
+	background-color: #F7F7F7;
+	padding: 2rem 2rem 2rem 2rem;
+}
+
+
+.mission-col{
+	flex-basis: 49%;
+	background: #B4FDCF;
+	border-radius: 10px;
+	padding: 10px 10px;
+	box-sizing: border-box;
+	transition: .45s;
+}
+
+.mission-col p{
+	text-align: justify;
+  	text-justify: inter-word;
+}
+
+.mission-col h3{
+	font-weight: 600;
+	text-align: center;
+	margin: 10px 0;
+}
+
+.mission-col:hover{
+	box-shadow: 0 0 30px 0px rgba(0,0,0,0.2);
+}
+
+.content .-page .row{
+	text-align: center;
+	margin-top: 2%;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.content .enrollment_page h1{
+	text-transform: uppercase;
+}
+
+.content .message_page h2{
+	line-height: 70px;
+}
+
+.content .enrollment_page .new-student{
+	padding: 1vh 1vh 1vh 1vh;
+	font-size: 20px;
+	font-weight: 400;
+	border-style: double;
+}
+
+.content .enrollment_page .old-student{
+	padding: 1vh 1vh 1vh 1vh;
+	font-size: 20px;
+	font-weight: 400;
+	border-style: double;
+}
+.icons .fa {
+	color: black;
+	margin: 0 13px;
+	cursor: pointer;
+	line-height: 50px;
+	font-size: 24px;
+}
+
+.icons ul li a{
+	color: #595757;
+	text-decoration: none;;
+	font-size: 16px;
+}
+
+	.greetings{
+		background-color: #E3E3E3;
+		padding: .5rem .5rem .5rem .5rem;
+		border-radius: 5px;
+		margin-bottom: 15px;
+	}
+
+	.title-greetings h4{
+		font-weight: 400;
+		font-size: 22px;
+		color: #333;
+	}
+
+.container{
+    position: relative;
+    max-width: 900px;
+    width: 100%;
+    border-radius: 6px;
+    padding: 20px;    
+    background-color: #fff;
+}
+.container header{
+    position: relative;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+}
+.container header::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    height: 3px;
+    width: 27px;
+    border-radius: 8px;
+    background-color: #4070f4;
+}
+
+.container form{
+    position: relative;
+    margin-top: 16px;
+    min-height: 500px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+
+.container form .title{
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 6px 0;
+    color: #333;
+}
+
+.input-field label{
+    font-size: 12px;
+    font-weight: 500;
+    color: #2e2e2e;
+}
+
+.input-field input{
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    padding: 0 15px;
+    margin: 0 0;
+}
+
+.input-field select{
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    padding: 0 15px;
+    margin: 0 0;
+}
+
+.container form button, .backBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    max-width: 200px;
+    width: 100%;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: #4070f4;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+.container form .btnText{
+    font-size: 14px;
+    font-weight: 400;
+}
+form button:hover{
+    background-color: #265df2;
+}
+form button i,
+form .backBtn i{
+    margin: 0 6px;
+}
+form .backBtn i{
+    transform: rotate(180deg);
+}
+
+
+form .buttons{
+    display: flex;
+    align-items: center;
+}
+form .buttons button , .backBtn{
+    margin-right: 14px;
+}
+
+.container form .row.second{
+    opacity: 0;
+    pointer-events: none;
+    transform: translateX(100%);
+}
+form.secActive .row.second{
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateX(0);
+}
+form.secActive .row.first{
+    opacity: 0;
+    pointer-events: none;
+    transform: translateX(-100%);
+}
+
+.container form{
+    position: relative;
+    margin-top: 16px;
+    min-height: 900px;
+    background-color: #fff;
+    overflow: hidden;
+}
+.container form .form{
+    position: absolute;
+    background-color: #fff;
+    transition: 0.3s ease;
+}
+
+#preloader2 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  overflow: hidden;
+  background: #ffffff82;
+}
+
+#preloader2:before {
+  content: "";
+  position: fixed;
+  top: calc(50% - 30px);
+  left: calc(50% - 30px);
+  border: 6px solid #3282F6;
+  border-top-color: #d9d9d9;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  -webkit-animation: animate-preloader 1s linear infinite;
+  animation: animate-preloader 1s linear infinite;
+}
+@-webkit-keyframes animate-preloader {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate-preloader {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+

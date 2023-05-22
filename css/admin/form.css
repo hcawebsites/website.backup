@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+  
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+  
+}
+.content{
+  width: 100%;
+  min-height:100vh;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-color: #E2E2E2;
+  
+}
+
+.navbar{
+  margin-top: -40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo{
+  width: 75px;
+  margin:50px 0;
+  padding-left: 1rem;
+  border-radius: 25%;
+}
+
+.navbar h3{
+  margin-left: 10px;
+}
+
+nav{
+  flex: 1;
+  text-align: right;
+}
+
+h1{
+  padding-left: 1%;
+
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+
+
+}
+
+nav ul li a:hover{
+  color: #93E1FE;
+  text-decoration: none;
+}
+
+.color{
+ 
+  background-color: #AFD0FA;
+  padding: 10px 10px;
+  margin-top: -50px;
+}
+
+.main-content{
+  padding-top: 2%;
+  background-color:white;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.box-form p{
+  font-size: 22px;
+  color: red;
+}
+
+.box-form input[type=checkbox]{
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.box-form input[type=submit]{
+
+  width: 100%;
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.box-form a{
+  cursor: pointer;
+  width: 100%;
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#output{
+  border-radius: 20px;
+  border:1px solid black;
+}
+
+#clock{
+ margin: auto;
+ padding-bottom: 10px;
+ font-size: 20px;
+ color: red;
+ border-radius: 10px;
+ text-align: center;
+}

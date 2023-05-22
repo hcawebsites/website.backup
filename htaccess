@@ -1,0 +1,3 @@
+#this is 404 Error Page to Show
+
+ErrorDocument 404 https://portalhcamis.000webhostapp.com/404.php
